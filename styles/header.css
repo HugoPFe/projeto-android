@@ -2,7 +2,7 @@
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    height: 130px;
+    height: 160px;
     text-align: center;
     padding-top: 30px;
 }
@@ -11,7 +11,9 @@ header > h1 {
     color: white;
     font-weight: normal;
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    size: 3em;
+    max-width: 3em;
+    min-width: 2.5em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
 }
 

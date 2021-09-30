@@ -2,7 +2,6 @@
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    height: 160px;
     text-align: center;
     padding-top: 30px;
 }
@@ -11,15 +10,18 @@ header > h1 {
     color: white;
     font-weight: normal;
     font-family: var(--fonte-destaque);
-    size: 3em;
+    font-size: 3.3em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
 }
 
 header > p {
     color: white;
-    max-width: 500px;
+    max-width: 600px;
     font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
+    padding-bottom: 40px;
 }
 
 nav {
